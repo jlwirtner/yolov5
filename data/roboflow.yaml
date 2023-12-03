@@ -1,0 +1,13 @@
+train: ../../datasets/roboflow/train/images
+val: ../../datasets/roboflow/valid/images
+test: ../../datasets/roboflow/test/images
+
+nc: 5
+names: ['cat', 'coyote', 'deer', 'dog', 'person']
+
+roboflow:
+  workspace: watchdog-iyqmi
+  project: delta-vision
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/watchdog-iyqmi/delta-vision/dataset/3
