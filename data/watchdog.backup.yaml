@@ -1,7 +1,6 @@
-path: ../datasets/watchdog
-train: images/train
-val: images/valid
-test: images/test
+train: ../../datasets/watchdog/train/images
+val: ../../datasets/watchdog/valid/images
+test: ../../datasets/watchdog/test/images
 
 nc: 5
 names: ['cat', 'coyote', 'deer', 'dog', 'person']
