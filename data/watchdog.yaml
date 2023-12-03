@@ -1,6 +1,6 @@
-train: ../../datasets/roboflow/train/images
-val: ../../datasets/roboflow/valid/images
-test: ../../datasets/roboflow/test/images
+train: ../../datasets/watchdog/train/images
+val: ../../datasets/watchdog/valid/images
+test: ../../datasets/watchdog/test/images
 
 nc: 5
 names: ['cat', 'coyote', 'deer', 'dog', 'person']
